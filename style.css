@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+html,body{
+    height:100%;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/id/653912522/photo/roulette-table-35.jpg?s=2048x2048&w=is&k=20&c=50Clf85loMu7DTcU4fL637rYEbC0hiZEas4UmqFHuR8=");
+    background-position:top;
+
+}
+h1{
+    font-size: 4rem;
+    font-style: italic;
+}
+h1:hover{
+    color: rgb(200, 255, 255);
+    font-size: 4.5rem;
+}
+#numDice{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+#numDice:hover{
+    color: rgb(200, 255, 255);
+    font-size: 1.7rem;
+}
+#numInp{
+    color: black;
+    height: 25px;
+    width:70px;
+    margin: 10px;
+    font-weight: bold;
+    
+}
+button{
+    height: 30px;
+    width:70px;
+    background-color: rgba(9, 9, 200, 0.95);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+button:hover{
+    height: 35px;
+    width:80px;
+    background-color: rgba(40, 40, 200, 0.8);
+}
+button:active{
+    background-color: rgba(80, 80, 200, 0.7);
+}
+#resultImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#resultImages img{
+    height: 250px;
+    margin: 5px;
+}
